@@ -16,7 +16,6 @@
   "rules": {
     "no-undef": [ 1 ],
     "no-console": "off",
-    "exclude": "/node_modules/",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "operator-linebreak": [1, "after"],
     "linebreak-style": "off",
