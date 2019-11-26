@@ -1,11 +1,13 @@
 import React from 'react';
 
-import './App.css';
+import { Generator } from './modules';
+
+import './App.less';
 
 function App() {
   return (
     <div className="App">
-      Hey
+      <Generator />
     </div>
   );
 }
