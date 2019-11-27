@@ -28,13 +28,11 @@ export class Generator extends Component {
     const { value } = this.state;
 
     return (
-      <Jumbotron id="heart" className="Heart">
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Tweet:
-            <input type="text" value={value} onChange={this.handleChange} />
-          </label>
-          <input type="submit" value="Check" />
+      <Jumbotron className="Generator">
+        <form className="form">
+          <h2>Who tweet it?</h2>
+          <p type="Input:"><input placeholder="Write your tweet here.."></input></p>
+          <button>Check</button>
         </form>
       </Jumbotron>
     );
