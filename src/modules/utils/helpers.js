@@ -25,19 +25,34 @@ export const execute = (input) => {
 
   switch (possibleAuthor) {
     case 'trump':
-      output = 'Donald Trump';
       certainty = Math.floor(results.trump * 100);
+      output = {
+        name: 'Donald J. Trump',
+        nick: '@realDonaldTrump',
+        imageSrc: 'https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg',
+        catchPhrase: `I'm ${certainty} % sure that such tweet may be written by Donald J. Trump`,
+      };
       break;
     case 'kardashian':
-      output = 'Kim Kardashian';
       certainty = Math.floor(results.kardashian * 100);
+      output = {
+        name: 'Kim Kardashian',
+        nick: '@KimKardashian',
+        imageSrc: 'https://pbs.twimg.com/profile_images/1145812709960667136/YF4VoP3e_400x400.jpg',
+        catchPhrase: `I'm ${certainty} % sure that such tweet may be written by Kim Kardashian`,
+      };
       break;
     default:
-      output = 'Grinzzly';
-      certainty = Math.floor(results.grinzzly * 100);
+      certainty = Math.floor(results.kardashian * 100);
+      output = {
+        name: 'Sergey Grin',
+        nick: '@greenzzly',
+        imageSrc: 'https://pbs.twimg.com/profile_images/1137802446628184064/L7ExDNvm_400x400.jpg',
+        catchPhrase: `I'm ${certainty} % sure that such tweet may be written by Grinzzly`,
+      };
   }
 
-  return `I'm ${certainty} % sure that such tweet may be written by ${output}`;
+  return output;
 };
 
 train(trainingData);

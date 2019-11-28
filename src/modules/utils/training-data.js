@@ -44,6 +44,22 @@ export const trainingData = [
     output: { trump: 1 },
   },
   {
+    input: 'Covfefe',
+    output: { trump: 1 },
+  },
+  {
+    input: 'We need the wall',
+    output: { trump: 1 },
+  },
+  {
+    input: 'Wall',
+    output: { trump: 1 },
+  },
+  {
+    input: 'Mexican',
+    output: { trump: 1 },
+  },
+  {
     input: 'I will be interviewed by @JudgeJeanine on @FoxNews at 9:00 P.M. Enjoy!',
     output: { trump: 1 },
   },
