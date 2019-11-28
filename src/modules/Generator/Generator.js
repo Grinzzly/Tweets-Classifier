@@ -29,10 +29,10 @@ export class Generator extends Component {
 
     return (
       <Jumbotron className="Generator">
-        <form className="form">
+        <form className="form" onSubmit={this.handleSubmit}>
           <h2>Who tweet it?</h2>
-          <p type="Input:"><input placeholder="Write your tweet here.."></input></p>
-          <button>Check</button>
+          <textarea placeholder="Write your tweet here.." value={value} onChange={this.handleChange} />
+          <button type="submit">Check</button>
         </form>
       </Jumbotron>
     );

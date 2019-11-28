@@ -1,14 +1,13 @@
 .Generator {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
 
   .form {
     width: 340px;
-    height: 440px;
+    height: 270px;
     background: #e6e6e6;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(50vh - 220px) auto;
+    margin: calc(30vh - 220px) auto;
     padding: 20px 30px;
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
@@ -24,9 +23,10 @@
     border-bottom: 3px solid #78788c
   }
 
-  input {
+  textarea {
     width: 100%;
     padding: 10px;
+    margin-top: 30px;
     box-sizing: border-box;
     background: none;
     outline: none;
@@ -43,8 +43,8 @@
 
   p:before {
     content: attr(type);
-    display: block;
-    margin: 28px 0 0;
+    display: flex;
+    margin: 28px 0 10px;
     font-size: 14px;
     color: #5a5a5a
   }

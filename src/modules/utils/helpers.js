@@ -3,16 +3,12 @@ import { trainingData } from './training-data';
 
 let trainedNet;
 
-const encoder = (arg) => ({...arg.split('').map((x) => (x.charCodeAt(0) / 256))});
+const encoder = (arg) => ({ ...arg.split('').map((x) => (x.charCodeAt(0) / 256)) });
 
-const processTrainingData = (data) => {
-  return data.map((d) => {
-    return {
-      input: encoder(d.input),
-      output: d.output,
-    };
-  });
-};
+const processTrainingData = (data) => (data.map((d) => ({
+  input: encoder(d.input),
+  output: d.output,
+})));
 
 const train = (data) => {
   const net = new NeuralNetwork();
