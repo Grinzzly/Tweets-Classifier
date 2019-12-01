@@ -40,6 +40,22 @@ export const trainingData = [
     output: { kardashian: 1 },
   },
   {
+    input: 'Have you shopped the @kkwbeauty #BlackFriday sale yet? Get 30% off site wide while supplies last, no promo code needed! (Exclusions apply)  Ends 12.02 at 11:59PM PST on http://KKWBEAUTY.COM',
+    output: { kardashian: 1 },
+  },
+  {
+    input: 'So thankful for my babies',
+    output: { kardashian: 1 },
+  },
+  {
+    input: 'Everyone please read his story below and if you can donate I’m sure he would be so grateful',
+    output: { kardashian: 1 },
+  },
+  {
+    input: 'I use it every day! #ConcealBakeBrighten',
+    output: { kardashian: 1 },
+  },
+  {
     input: "'Congressman Schiff omitted and distorted key facts' @FoxNews  So, what else is new. He is a total phony!",
     output: { trump: 1 },
   },
