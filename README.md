@@ -15,7 +15,7 @@
 </div>
 
 ## About
-General idea was to bring to life Neural Network that predict from random user-input phrase who is most likely to tweet it - Kim Kardashian, Donal J. Trump, or yours truly Me!
+General idea was to bring to life Neural Network that predict from random user-input phrase who is most likely to tweet it - Kim Kardashian, Donald J. Trump, or yours truly Me!
 
 You may observe result [here](https://tweets-classifier.netlify.com/)
   
