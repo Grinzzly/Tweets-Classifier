@@ -1,14 +1,14 @@
 <h1 align="center">Tweets-Classifier</h1>
 
 <div align="center">
-  <sub>The little tweeter machine. Designed by
+  <sub>The little tweeter machine that speculates. Written by
     <a href="https://github.com/Grinzzly">Grinzzly</a>
   </sub>
   <br>
   <br>
   <a href="https://github.com/airbnb/javascript">
-        <img src="https://img.shields.io/badge/Code%20Style-Airbnb-red.svg"
-             alt="Airbnb">
+    <img src="https://img.shields.io/badge/Code%20Style-Airbnb-red.svg"
+       alt="Airbnb">
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg" alt="Quality">
