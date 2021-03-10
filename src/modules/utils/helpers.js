@@ -1,4 +1,5 @@
-import { NeuralNetwork } from 'brain.js';
+import { NeuralNetwork } from 'brain.js/src';
+
 import { trainingData } from './training-data';
 
 let trainedNet;
@@ -45,8 +46,8 @@ export const execute = (input) => {
     default:
       certainty = Math.floor(results.kardashian * 100);
       output = {
-        name: 'Sergey Grin',
-        nick: '@greenzzly',
+        name: 'Sergey',
+        nick: '@grinnzly',
         imageSrc: 'https://pbs.twimg.com/profile_images/1137802446628184064/L7ExDNvm_400x400.jpg',
         catchPhrase: `I'm ${certainty} % sure that such tweet may be written by Grinzzly`,
       };
